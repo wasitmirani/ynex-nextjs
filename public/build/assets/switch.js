@@ -12,7 +12,7 @@ window.addEventListener("load", () => {
         localStorage.removeItem("ynexHeader");
         localStorage.removeItem("darkBgRGB");
         localStorage.removeItem("bodyBgRGB");
-        html.setAttribute("data-menu-styles", "dark");
+        html.setAttribute("data-menu-styles", "light");
         html.setAttribute("data-header-styles", "light");
         html.style.removeProperty("--body-bg");
         html.style.removeProperty("--dark-bg");
