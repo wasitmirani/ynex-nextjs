@@ -29,7 +29,7 @@ const languages = [
 								}
 							];
 	return (
-	<>
+
   <header className="app-header">
             <nav className="main-header !h-[3.75rem]" aria-label="Global">
                 <div className="main-header-container ps-[0.725rem] pe-[1rem] ">
@@ -718,7 +718,7 @@ const languages = [
                 </div>
             </nav>
         </header>
-    </>
+ 
 );
 };
 

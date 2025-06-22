@@ -49,7 +49,7 @@ const SideBar: React.FC = () => {
                                     )}
                                     {item.type === 'multi' && (
                                         <li className="slide has-sub">
-                                            <a href="javascript:void(0)" className="side-menu__item cursor-pointer">
+                                            <a  href="#" onClick={e => e.preventDefault()} className="side-menu__item cursor-pointer">
                                                 <i className="ri-arrow-right-s-line side-menu__angle"></i>
                                                 <i className={`${item.icon} side-menu__icon icon-24`}></i>
                                                 <span className="side-menu__label">{item.title}</span>

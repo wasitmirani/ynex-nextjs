@@ -51,11 +51,11 @@ export default function RootLayout({
 
 
     return (
-        <>
+ 
         <MasterLayout>
                     {children}
                     </MasterLayout>
-                    </>
+              
     )
  
  
