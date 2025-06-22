@@ -1,12 +1,11 @@
-"use client";
+
 import React  from 'react';
 
 const LayoutSwitcher: React.FC = () => {
-
-
+    console.log("LayoutSwitcher component loaded");
     return (
-      <>
-         <div id="hs-overlay-switcher" className="hs-overlay hidden ti-offcanvas ti-offcanvas-right" >
+
+   <div id="hs-overlay-switcher" className="hs-overlay hidden ti-offcanvas ti-offcanvas-right" tabIndex={-1}>
         <div className="ti-offcanvas-header z-10 relative">
             <h5 className="ti-offcanvas-title">
                 Switcher
@@ -59,7 +58,7 @@ const LayoutSwitcher: React.FC = () => {
                                 className="text-defaultsize text-defaulttextcolor dark:text-defaulttextcolor/70 ms-2  font-semibold">LTR</label>
                         </div>
                         <div className="flex items-center">
-                            <input type="radio" name="direction" className="ti-form-radio" id="switcher-rtl"/>
+                            <input type="radio" name="direction" className="ti-form-radio" id="switcher-rtl" />
                             <label htmlFor="switcher-rtl"
                                 className="text-defaultsize text-defaulttextcolor dark:text-defaulttextcolor/70 ms-2  font-semibold">RTL</label>
                         </div>
@@ -122,7 +121,7 @@ const LayoutSwitcher: React.FC = () => {
                     <div className="grid grid-cols-2 gap-2 switcher-style">
                         <div className="flex">
                             <input type="radio" name="sidemenu-layout-styles" className="ti-form-radio"
-                                id="switcher-default-menu" checked />
+                                id="switcher-default-menu" checked/>
                             <label htmlFor="switcher-default-menu"
                                 className="text-defaultsize text-defaulttextcolor dark:text-defaulttextcolor/70 ms-2  font-semibold ">Default
                                 Menu</label>
@@ -137,27 +136,27 @@ const LayoutSwitcher: React.FC = () => {
                         </div>
                         <div className="flex">
                             <input type="radio" name="sidemenu-layout-styles" className="ti-form-radio"
-                                id="switcher-icontext-menu"/>
+                                id="switcher-icontext-menu" />
                             <label htmlFor="switcher-icontext-menu"
                                 className="text-defaultsize text-defaulttextcolor dark:text-defaulttextcolor/70 ms-2  font-semibold ">Icon
                                 Text</label>
                         </div>
                         <div className="flex">
                             <input type="radio" name="sidemenu-layout-styles" className="ti-form-radio"
-                                id="switcher-icon-overlay">
+                                id="switcher-icon-overlay" />
                             <label htmlFor="switcher-icon-overlay"
                                 className="text-defaultsize text-defaulttextcolor dark:text-defaulttextcolor/70 ms-2  font-semibold ">Icon
                                 Overlay</label>
                         </div>
                         <div className="flex">
                             <input type="radio" name="sidemenu-layout-styles" className="ti-form-radio"
-                                id="switcher-detached">
+                                id="switcher-detached" />
                             <label htmlFor="switcher-detached"
                                 className="text-defaultsize text-defaulttextcolor dark:text-defaulttextcolor/70 ms-2  font-semibold ">Detached</label>
                         </div>
                         <div className="flex">
                             <input type="radio" name="sidemenu-layout-styles" className="ti-form-radio"
-                                id="switcher-double-menu">
+                                id="switcher-double-menu" />
                             <label htmlFor="switcher-double-menu"
                                 className="text-defaultsize text-defaulttextcolor dark:text-defaulttextcolor/70 ms-2  font-semibold">Double
                                 Menu</label>
@@ -171,17 +170,17 @@ const LayoutSwitcher: React.FC = () => {
                     <div className="grid grid-cols-3  switcher-style">
                         <div className="flex">
                             <input type="radio" name="data-page-styles" className="ti-form-radio" id="switcher-regular"
-                                checked>
+                                checked />
                             <label htmlFor="switcher-regular"
                                 className="text-defaultsize text-defaulttextcolor dark:text-defaulttextcolor/70 ms-2  font-semibold">Regular</label>
                         </div>
                         <div className="flex">
-                            <input type="radio" name="data-page-styles" className="ti-form-radio" id="switcher-classic"/>
+                            <input type="radio" name="data-page-styles" className="ti-form-radio" id="switcher-classic" />
                             <label htmlFor="switcher-classic"
                                 className="text-defaultsize text-defaulttextcolor dark:text-defaulttextcolor/70 ms-2  font-semibold">Classic</label>
                         </div>
                         <div className="flex">
-                            <input type="radio" name="data-page-styles" className="ti-form-radio" id="switcher-modern">
+                            <input type="radio" name="data-page-styles" className="ti-form-radio" id="switcher-modern" />
                             <label htmlFor="switcher-modern"
                                 className="text-defaultsize text-defaulttextcolor dark:text-defaulttextcolor/70 ms-2  font-semibold">
                                 Modern</label>
@@ -193,12 +192,12 @@ const LayoutSwitcher: React.FC = () => {
                     <div className="grid grid-cols-3 switcher-style">
                         <div className="flex">
                             <input type="radio" name="layout-width" className="ti-form-radio" id="switcher-full-width"
-                                checked>
+                                checked />
                             <label htmlFor="switcher-full-width"
                                 className="text-defaultsize text-defaulttextcolor dark:text-defaulttextcolor/70 ms-2  font-semibold">FullWidth</label>
                         </div>
                         <div className="flex">
-                            <input type="radio" name="layout-width" className="ti-form-radio" id="switcher-boxed">
+                            <input type="radio" name="layout-width" className="ti-form-radio" id="switcher-boxed" />
                             <label htmlFor="switcher-boxed"
                                 className="text-defaultsize text-defaulttextcolor dark:text-defaulttextcolor/70 ms-2  font-semibold">Boxed</label>
                         </div>
@@ -209,13 +208,13 @@ const LayoutSwitcher: React.FC = () => {
                     <div className="grid grid-cols-3  switcher-style">
                         <div className="flex">
                             <input type="radio" name="data-menu-positions" className="ti-form-radio"
-                                id="switcher-menu-fixed" checked>
+                                id="switcher-menu-fixed" checked />
                             <label htmlFor="switcher-menu-fixed"
                                 className="text-defaultsize text-defaulttextcolor dark:text-defaulttextcolor/70 ms-2  font-semibold">Fixed</label>
                         </div>
                         <div className="flex">
                             <input type="radio" name="data-menu-positions" className="ti-form-radio"
-                                id="switcher-menu-scroll">
+                                id="switcher-menu-scroll" />
                             <label htmlFor="switcher-menu-scroll"
                                 className="text-defaultsize text-defaulttextcolor dark:text-defaulttextcolor/70 ms-2  font-semibold">Scrollable
                             </label>
@@ -227,14 +226,14 @@ const LayoutSwitcher: React.FC = () => {
                     <div className="grid grid-cols-3 switcher-style">
                         <div className="flex">
                             <input type="radio" name="data-header-positions" className="ti-form-radio"
-                                id="switcher-header-fixed" checked>
+                                id="switcher-header-fixed" checked/>
                             <label htmlFor="switcher-header-fixed"
                                 className="text-defaultsize text-defaulttextcolor dark:text-defaulttextcolor/70 ms-2  font-semibold">
                                 Fixed</label>
                         </div>
                         <div className="flex">
                             <input type="radio" name="data-header-positions" className="ti-form-radio"
-                                id="switcher-header-scroll">
+                                id="switcher-header-scroll" />
                             <label htmlFor="switcher-header-scroll"
                                 className="text-defaultsize text-defaulttextcolor dark:text-defaulttextcolor/70 ms-2  font-semibold">Scrollable
                             </label>
@@ -246,13 +245,13 @@ const LayoutSwitcher: React.FC = () => {
                     <div className="grid grid-cols-3 switcher-style">
                         <div className="flex">
                             <input type="radio" name="page-loader" className="ti-form-radio" id="switcher-loader-enable"
-                                checked>
+                                checked />
                             <label htmlFor="switcher-loader-enable"
                                 className="text-defaultsize text-defaulttextcolor dark:text-defaulttextcolor/70 ms-2  font-semibold">
                                 Enable</label>
                         </div>
                         <div className="flex">
-                            <input type="radio" name="page-loader" className="ti-form-radio" id="switcher-loader-disable">
+                            <input type="radio" name="page-loader" className="ti-form-radio" id="switcher-loader-disable" />
                             <label htmlFor="switcher-loader-disable"
                                 className="text-defaultsize text-defaulttextcolor dark:text-defaulttextcolor/70 ms-2  font-semibold">Disable
                             </label>
@@ -266,7 +265,7 @@ const LayoutSwitcher: React.FC = () => {
                     <div className="flex switcher-style space-x-3 rtl:space-x-reverse">
                         <div className="hs-tooltip ti-main-tooltip ti-form-radio switch-select ">
                             <input className="hs-tooltip-toggle ti-form-radio color-input color-white" type="radio"
-                                name="menu-colors" id="switcher-menu-light" checked>
+                                name="menu-colors" id="switcher-menu-light" checked /> 
                             <span
                                 className="hs-tooltip-content ti-main-tooltip-content !py-1 !px-2 !bg-black text-xs font-medium !text-white shadow-sm dark:!bg-black"
                                 role="tooltip">
@@ -275,7 +274,7 @@ const LayoutSwitcher: React.FC = () => {
                         </div>
                         <div className="hs-tooltip ti-main-tooltip ti-form-radio switch-select ">
                             <input className="hs-tooltip-toggle ti-form-radio color-input color-dark" type="radio"
-                                name="menu-colors" id="switcher-menu-dark" checked>
+                                name="menu-colors" id="switcher-menu-dark" checked />
                             <span
                                 className="hs-tooltip-content ti-main-tooltip-content !py-1 !px-2 !bg-black text-xs font-medium !text-white shadow-sm dark:!bg-black"
                                 role="tooltip">
@@ -284,7 +283,7 @@ const LayoutSwitcher: React.FC = () => {
                         </div>
                         <div className="hs-tooltip ti-main-tooltip ti-form-radio switch-select ">
                             <input className="hs-tooltip-toggle ti-form-radio color-input color-primary" type="radio"
-                                name="menu-colors" id="switcher-menu-primary">
+                                name="menu-colors" id="switcher-menu-primary" />
                             <span
                                 className="hs-tooltip-content ti-main-tooltip-content !py-1 !px-2 !bg-black text-xs font-medium !text-white shadow-sm dark:!bg-black"
                                 role="tooltip">
@@ -293,7 +292,7 @@ const LayoutSwitcher: React.FC = () => {
                         </div>
                         <div className="hs-tooltip ti-main-tooltip ti-form-radio switch-select ">
                             <input className="hs-tooltip-toggle ti-form-radio color-input color-gradient" type="radio"
-                                name="menu-colors" id="switcher-menu-gradient">
+                                name="menu-colors" id="switcher-menu-gradient" />
                             <span
                                 className="hs-tooltip-content ti-main-tooltip-content !py-1 !px-2 !bg-black text-xs font-medium !text-white shadow-sm dark:!bg-black"
                                 role="tooltip">
@@ -302,7 +301,7 @@ const LayoutSwitcher: React.FC = () => {
                         </div>
                         <div className="hs-tooltip ti-main-tooltip ti-form-radio switch-select ">
                             <input className="hs-tooltip-toggle ti-form-radio color-input color-transparent" type="radio"
-                                name="menu-colors" id="switcher-menu-transparent">
+                                name="menu-colors" id="switcher-menu-transparent" />
                             <span
                                 className="hs-tooltip-content ti-main-tooltip-content !py-1 !px-2 !bg-black text-xs font-medium !text-white shadow-sm dark:!bg-black"
                                 role="tooltip">
@@ -320,7 +319,7 @@ const LayoutSwitcher: React.FC = () => {
                     <div className="flex switcher-style space-x-3 rtl:space-x-reverse">
                         <div className="hs-tooltip ti-main-tooltip ti-form-radio switch-select ">
                             <input className="hs-tooltip-toggle ti-form-radio color-input color-white !border" type="radio"
-                                name="header-colors" id="switcher-header-light" checked>
+                                name="header-colors" id="switcher-header-light" checked />
                             <span
                                 className="hs-tooltip-content ti-main-tooltip-content !py-1 !px-2 !bg-black text-xs font-medium !text-white shadow-sm dark:!bg-black"
                                 role="tooltip">
@@ -329,7 +328,7 @@ const LayoutSwitcher: React.FC = () => {
                         </div>
                         <div className="hs-tooltip ti-main-tooltip ti-form-radio switch-select ">
                             <input className="hs-tooltip-toggle ti-form-radio color-input color-dark" type="radio"
-                                name="header-colors" id="switcher-header-dark">
+                                name="header-colors" id="switcher-header-dark" />
                             <span
                                 className="hs-tooltip-content ti-main-tooltip-content !py-1 !px-2 !bg-black text-xs font-medium !text-white shadow-sm dark:!bg-black"
                                 role="tooltip">
@@ -338,7 +337,7 @@ const LayoutSwitcher: React.FC = () => {
                         </div>
                         <div className="hs-tooltip ti-main-tooltip ti-form-radio switch-select ">
                             <input className="hs-tooltip-toggle ti-form-radio color-input color-primary" type="radio"
-                                name="header-colors" id="switcher-header-primary">
+                                name="header-colors" id="switcher-header-primary" />
                             <span
                                 className="hs-tooltip-content ti-main-tooltip-content !py-1 !px-2 !bg-black text-xs font-medium !text-white shadow-sm dark:!bg-black"
                                 role="tooltip">
@@ -347,8 +346,8 @@ const LayoutSwitcher: React.FC = () => {
                         </div>
                         <div className="hs-tooltip ti-main-tooltip ti-form-radio switch-select ">
                             <input className="hs-tooltip-toggle ti-form-radio color-input color-gradient" type="radio"
-                                name="header-colors" id="switcher-header-gradient">
-                            <span
+                                name="header-colors" id="switcher-header-gradient"/>
+                            <span 
                                 className="hs-tooltip-content ti-main-tooltip-content !py-1 !px-2 !bg-black text-xs font-medium !text-white shadow-sm dark:!bg-black"
                                 role="tooltip">
                                 Gradient Header
@@ -356,7 +355,7 @@ const LayoutSwitcher: React.FC = () => {
                         </div>
                         <div className="hs-tooltip ti-main-tooltip ti-form-radio switch-select ">
                             <input className="hs-tooltip-toggle ti-form-radio color-input color-transparent" type="radio"
-                                name="header-colors" id="switcher-header-transparent">
+                                name="header-colors" id="switcher-header-transparent" />
                             <span
                                 className="hs-tooltip-content ti-main-tooltip-content !py-1 !px-2 !bg-black text-xs font-medium !text-white shadow-sm dark:!bg-black"
                                 role="tooltip">
@@ -374,23 +373,23 @@ const LayoutSwitcher: React.FC = () => {
                     <div className="flex switcher-style space-x-3 rtl:space-x-reverse">
                         <div className="ti-form-radio switch-select">
                             <input className="ti-form-radio color-input color-primary-1" type="radio" name="theme-primary"
-                                id="switcher-primary" checked>
+                                id="switcher-primary" checked />
                         </div>
                         <div className="ti-form-radio switch-select">
                             <input className="ti-form-radio color-input color-primary-2" type="radio" name="theme-primary"
-                                id="switcher-primary1">
+                                id="switcher-primary1" />
                         </div>
                         <div className="ti-form-radio switch-select">
                             <input className="ti-form-radio color-input color-primary-3" type="radio" name="theme-primary"
-                                id="switcher-primary2">
+                                id="switcher-primary2" />
                         </div>
                         <div className="ti-form-radio switch-select">
                             <input className="ti-form-radio color-input color-primary-4" type="radio" name="theme-primary"
-                                id="switcher-primary3">
+                                id="switcher-primary3" />
                         </div>
                         <div className="ti-form-radio switch-select">
                             <input className="ti-form-radio color-input color-primary-5" type="radio" name="theme-primary"
-                                id="switcher-primary4">
+                                id="switcher-primary4" />
                         </div>
                         <div className="ti-form-radio switch-select ps-0 mt-1 color-primary-light">
                             <div className="theme-container-primary"></div>
@@ -403,23 +402,23 @@ const LayoutSwitcher: React.FC = () => {
                     <div className="flex switcher-style space-x-3 rtl:space-x-reverse">
                         <div className="ti-form-radio switch-select">
                             <input className="ti-form-radio color-input color-bg-1" type="radio" name="theme-background"
-                                id="switcher-background" checked/>
+                                id="switcher-background" checked />
                         </div>
                         <div className="ti-form-radio switch-select">
                             <input className="ti-form-radio color-input color-bg-2" type="radio" name="theme-background"
-                                id="switcher-background1"/>
+                                id="switcher-background1" />
                         </div>
                         <div className="ti-form-radio switch-select">
                             <input className="ti-form-radio color-input color-bg-3" type="radio" name="theme-background"
-                                id="switcher-background2"/>
+                                id="switcher-background2" />
                         </div>
                         <div className="ti-form-radio switch-select">
                             <input className="ti-form-radio color-input color-bg-4" type="radio" name="theme-background"
-                                id="switcher-background3"/>
+                                id="switcher-background3" />
                         </div>
                         <div className="ti-form-radio switch-select">
                             <input className="ti-form-radio color-input color-bg-5" type="radio" name="theme-background"
-                                id="switcher-background4"/>
+                                id="switcher-background4" />
                         </div>
                         <div className="ti-form-radio switch-select ps-0 mt-1 color-bg-transparent">
                             <div className="theme-container-background hidden"></div>
@@ -432,22 +431,23 @@ const LayoutSwitcher: React.FC = () => {
                     <div className="flex switcher-style space-x-3 rtl:space-x-reverse flex-wrap gap-3">
                         <div className="ti-form-radio switch-select">
                             <input className="ti-form-radio bgimage-input bg-img1" type="radio" name="theme-images"
-                                id="switcher-bg-img"/>
+                                id="switcher-bg-img" />
+                        </div>
                         <div className="ti-form-radio switch-select">
                             <input className="ti-form-radio bgimage-input bg-img2" type="radio" name="theme-images"
-                                id="switcher-bg-img1"/>
+                                id="switcher-bg-img1" />
                         </div>
                         <div className="ti-form-radio switch-select">
                             <input className="ti-form-radio bgimage-input bg-img3" type="radio" name="theme-images"
-                                id="switcher-bg-img2"/>
+                                id="switcher-bg-img2" />
                         </div>
                         <div className="ti-form-radio switch-select">
                             <input className="ti-form-radio bgimage-input bg-img4" type="radio" name="theme-images"
-                                id="switcher-bg-img3"/>
+                                id="switcher-bg-img3" />
                         </div>
                         <div className="ti-form-radio switch-select">
                             <input className="ti-form-radio bgimage-input bg-img5" type="radio" name="theme-images"
-                                id="switcher-bg-img4"/>
+                                id="switcher-bg-img4" />
                         </div>
                     </div>
                 </div>
@@ -461,8 +461,6 @@ const LayoutSwitcher: React.FC = () => {
             <a href="javascript:void(0);" id="reset-all" className="w-full ti-btn btn-wave ti-btn-danger-full m-1">Reset</a>
         </div>
     </div>
- 
-      </>
 
     );
 };
