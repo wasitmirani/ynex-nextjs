@@ -61,6 +61,7 @@ export default function MasterLayout({ children }: { children: ReactNode }) {
             },100); // Delay by 100ms
         }, 0);
 
+        
         // Cleanup on unmount
         return () => {
             clearTimeout(timeout);
