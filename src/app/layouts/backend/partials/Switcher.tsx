@@ -2,7 +2,7 @@
 import React  from 'react';
 
 const LayoutSwitcher: React.FC = () => {
-    console.log("LayoutSwitcher component loaded");
+
     return (
 
    <div id="hs-overlay-switcher" className="hs-overlay hidden ti-offcanvas ti-offcanvas-right" tabIndex={-1}>
@@ -454,10 +454,8 @@ const LayoutSwitcher: React.FC = () => {
             </div>
         </div>
         <div className="ti-offcanvas-footer sm:flex justify-between">
-            <a href="https://themeforest.net/item/ynex-laravel-tailwind-admin-dashboard-template/49617469"
-                target="_blank" className="w-full ti-btn btn-wave ti-btn-primary-full m-1">Buy Now</a>
-            <a href="https://themeforest.net/user/spruko/portfolio" target="_blank"
-                className="w-full ti-btn btn-wave ti-btn-secondary-full m-1">Our Portfolio</a>
+         
+           
             <a href="javascript:void(0);" id="reset-all" className="w-full ti-btn btn-wave ti-btn-danger-full m-1">Reset</a>
         </div>
     </div>
