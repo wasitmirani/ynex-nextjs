@@ -188,7 +188,7 @@ const DashboardPage: React.FC = () => {
                             <div className="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-6 col-span-12">
                                 <div className="box overflow-hidden">
                                     <div className="ecommerce-sale-image">
-                                        <img src="/build/assets/images/ecommerce/png/35.png" className="card-img-top"
+                                        <img src="/backend/assets/images/ecommerce/png/35.png" className="card-img-top"
                                             alt="..." />
                                         <div className="card-img-overlay  p-6 text-white">
                                             <p className=" opacity-[0.7] text-[0.75rem]">Spruko Official.Inc</p>
@@ -247,7 +247,7 @@ const DashboardPage: React.FC = () => {
                                                     <div className="flex tems-center">
                                                         <div className="leading-none">
                                                             <span className="inline-flex justify-center items-center">
-                                                                <img src="/build/assets/images/ecommerce/jpg/1.jpg"
+                                                                <img src="/backend/assets/images/ecommerce/jpg/1.jpg"
                                                                     alt=""
                                                                     className="w-[2.5rem] h-[2.5rem]leading-[2.5rem] text-[0.8rem] rounded-md" />
                                                             </span>
@@ -270,7 +270,7 @@ const DashboardPage: React.FC = () => {
                                                     <div className="flex items-center">
                                                         <div className="leading-none">
                                                             <span className="inline-flex justify-center items-center">
-                                                                <img src="/build/assets/images/ecommerce/jpg/2.jpg"
+                                                                <img src="/backend/assets/images/ecommerce/jpg/2.jpg"
                                                                     alt=""
                                                                     className="w-[2.5rem] h-[2.5rem]leading-[2.5rem] text-[0.8rem] rounded-md" />
                                                             </span>
@@ -292,7 +292,7 @@ const DashboardPage: React.FC = () => {
                                                     <div className="flex items-center">
                                                         <div className="leading-none">
                                                             <span className="inline-flex justify-center items-center">
-                                                                <img src="/build/assets/images/ecommerce/jpg/3.jpg"
+                                                                <img src="/backend/assets/images/ecommerce/jpg/3.jpg"
                                                                     alt=""
                                                                     className="w-[2.5rem] h-[2.5rem]leading-[2.5rem] text-[0.8rem] rounded-md" />
                                                             </span>
@@ -314,7 +314,7 @@ const DashboardPage: React.FC = () => {
                                                     <div className="flex items-center">
                                                         <div className="leading-none">
                                                             <span className="inline-flex justify-center items-center">
-                                                                <img src="/build/assets/images/ecommerce/jpg/4.jpg"
+                                                                <img src="/backend/assets/images/ecommerce/jpg/4.jpg"
                                                                     alt=""
                                                                     className="w-[2.5rem] h-[2.5rem]leading-[2.5rem] text-[0.8rem] rounded-md" />
                                                             </span>
@@ -336,7 +336,7 @@ const DashboardPage: React.FC = () => {
                                                     <div className="flex items-center">
                                                         <div className="leading-none">
                                                             <span className="inline-flex justify-center items-center">
-                                                                <img src="/build/assets/images/ecommerce/jpg/5.jpg"
+                                                                <img src="/backend/assets/images/ecommerce/jpg/5.jpg"
                                                                     alt=""
                                                                     className="w-[2.5rem] h-[2.5rem]leading-[2.5rem] text-[0.8rem] rounded-md" />
                                                             </span>
@@ -358,7 +358,7 @@ const DashboardPage: React.FC = () => {
                                                     <div className="flex items-center">
                                                         <div className="leading-none">
                                                             <span className="inline-flex justify-center items-center">
-                                                                <img src="/build/assets/images/ecommerce/jpg/6.jpg"
+                                                                <img src="/backend/assets/images/ecommerce/jpg/6.jpg"
                                                                     alt=""
                                                                     className="w-[2.5rem] h-[2.5rem]leading-[2.5rem] text-[0.8rem] rounded-md" />
                                                             </span>
@@ -419,7 +419,7 @@ const DashboardPage: React.FC = () => {
                                                                         <div className="leading-none">
                                                                             <span
                                                                                 className="avatar avatar-md online avatar-rounded me-2 !mb-0">
-                                                                                <img src="/build/assets/images/faces/4.jpg"
+                                                                                <img src="/backend/assets/images/faces/4.jpg"
                                                                                     alt="" />
                                                                             </span>
                                                                         </div>
@@ -447,7 +447,7 @@ const DashboardPage: React.FC = () => {
                                                                 </td>
                                                                 <td>
                                                                     <span className="avatar avatar-md">
-                                                                        <img src="/build/assets/images/ecommerce/png/1.png"
+                                                                        <img src="/backend/assets/images/ecommerce/png/1.png"
                                                                             alt="" />
                                                                     </span>
                                                                 </td>
@@ -465,7 +465,7 @@ const DashboardPage: React.FC = () => {
                                                                         <div className="leading-none">
                                                                             <span
                                                                                 className="avatar avatar-md online avatar-rounded me-2 !mb-0">
-                                                                                <img src="/build/assets/images/faces/10.jpg"
+                                                                                <img src="/backend/assets/images/faces/10.jpg"
                                                                                     alt="" />
                                                                             </span>
                                                                         </div>
@@ -493,7 +493,7 @@ const DashboardPage: React.FC = () => {
                                                                 </td>
                                                                 <td>
                                                                     <span className="avatar avatar-md">
-                                                                        <img src="/build/assets/images/ecommerce/png/2.png"
+                                                                        <img src="/backend/assets/images/ecommerce/png/2.png"
                                                                             alt="" />
                                                                     </span>
                                                                 </td>
@@ -511,7 +511,7 @@ const DashboardPage: React.FC = () => {
                                                                         <div className="leading-none">
                                                                             <span
                                                                                 className="avatar avatar-md offline avatar-rounded me-2 !mb-0">
-                                                                                <img src="/build/assets/images/faces/12.jpg"
+                                                                                <img src="/backend/assets/images/faces/12.jpg"
                                                                                     alt="" />
                                                                             </span>
                                                                         </div>
@@ -539,7 +539,7 @@ const DashboardPage: React.FC = () => {
                                                                 </td>
                                                                 <td>
                                                                     <span className="avatar avatar-md">
-                                                                        <img src="/build/assets/images/ecommerce/png/3.png"
+                                                                        <img src="/backend/assets/images/ecommerce/png/3.png"
                                                                             alt="" />
                                                                     </span>
                                                                 </td>
@@ -557,7 +557,7 @@ const DashboardPage: React.FC = () => {
                                                                         <div className="leading-none">
                                                                             <span
                                                                                 className="avatar avatar-md online avatar-rounded me-2 !mb-0">
-                                                                                <img src="/build/assets/images/faces/5.jpg"
+                                                                                <img src="/backend/assets/images/faces/5.jpg"
                                                                                     alt="" />
                                                                             </span>
                                                                         </div>
@@ -585,7 +585,7 @@ const DashboardPage: React.FC = () => {
                                                                 </td>
                                                                 <td>
                                                                     <span className="avatar avatar-md">
-                                                                        <img src="/build/assets/images/ecommerce/png/4.png"
+                                                                        <img src="/backend/assets/images/ecommerce/png/4.png"
                                                                             alt="" />
                                                                     </span>
                                                                 </td>
@@ -602,7 +602,7 @@ const DashboardPage: React.FC = () => {
                                                                         <div className="leading-none">
                                                                             <span
                                                                                 className="avatar avatar-md offline avatar-rounded me-2 !mb-0">
-                                                                                <img src="/build/assets/images/faces/14.jpg"
+                                                                                <img src="/backend/assets/images/faces/14.jpg"
                                                                                     alt="" />
                                                                             </span>
                                                                         </div>
@@ -630,7 +630,7 @@ const DashboardPage: React.FC = () => {
                                                                 </td>
                                                                 <td>
                                                                     <span className="avatar avatar-md">
-                                                                        <img src="/build/assets/images/ecommerce/png/5.png"
+                                                                        <img src="/backend/assets/images/ecommerce/png/5.png"
                                                                             alt="" />
                                                                     </span>
                                                                 </td>
@@ -657,7 +657,7 @@ const DashboardPage: React.FC = () => {
                                                                         <div className="leading-none">
                                                                             <span
                                                                                 className="avatar avatar-md offline avatar-rounded me-2 !mb-0">
-                                                                                <img src="/build/assets/images/faces/2.jpg"
+                                                                                <img src="/backend/assets/images/faces/2.jpg"
                                                                                     alt="" />
                                                                             </span>
                                                                         </div>
@@ -685,7 +685,7 @@ const DashboardPage: React.FC = () => {
                                                                 </td>
                                                                 <td>
                                                                     <span className="avatar avatar-md">
-                                                                        <img src="/build/assets/images/ecommerce/png/6.png"
+                                                                        <img src="/backend/assets/images/ecommerce/png/6.png"
                                                                             alt="" />
                                                                     </span>
                                                                 </td>
@@ -703,7 +703,7 @@ const DashboardPage: React.FC = () => {
                                                                         <div className="leading-none">
                                                                             <span
                                                                                 className="avatar avatar-md offline avatar-rounded me-2 !mb-0">
-                                                                                <img src="/build/assets/images/faces/13.jpg"
+                                                                                <img src="/backend/assets/images/faces/13.jpg"
                                                                                     alt="" />
                                                                             </span>
                                                                         </div>
@@ -731,7 +731,7 @@ const DashboardPage: React.FC = () => {
                                                                 </td>
                                                                 <td>
                                                                     <span className="avatar avatar-md">
-                                                                        <img src="/build/assets/images/ecommerce/png/7.png"
+                                                                        <img src="/backend/assets/images/ecommerce/png/7.png"
                                                                             alt="" />
                                                                     </span>
                                                                 </td>
@@ -749,7 +749,7 @@ const DashboardPage: React.FC = () => {
                                                                         <div className="leading-none">
                                                                             <span
                                                                                 className="avatar avatar-md online avatar-rounded me-2 !mb-0">
-                                                                                <img src="/build/assets/images/faces/7.jpg"
+                                                                                <img src="/backend/assets/images/faces/7.jpg"
                                                                                     alt="" />
                                                                             </span>
                                                                         </div>
@@ -777,7 +777,7 @@ const DashboardPage: React.FC = () => {
                                                                 </td>
                                                                 <td>
                                                                     <span className="avatar avatar-md">
-                                                                        <img src="/build/assets/images/ecommerce/png/8.png"
+                                                                        <img src="/backend/assets/images/ecommerce/png/8.png"
                                                                             alt="" />
                                                                     </span>
                                                                 </td>
@@ -795,7 +795,7 @@ const DashboardPage: React.FC = () => {
                                                                         <div className="leading-none">
                                                                             <span
                                                                                 className="avatar avatar-md online avatar-rounded me-2 !mb-0">
-                                                                                <img src="/build/assets/images/faces/12.jpg"
+                                                                                <img src="/backend/assets/images/faces/12.jpg"
                                                                                     alt="" />
                                                                             </span>
                                                                         </div>
@@ -823,7 +823,7 @@ const DashboardPage: React.FC = () => {
                                                                 </td>
                                                                 <td>
                                                                     <span className="avatar avatar-md">
-                                                                        <img src="/build/assets/images/ecommerce/png/9.png"
+                                                                        <img src="/backend/assets/images/ecommerce/png/9.png"
                                                                             alt="" />
                                                                     </span>
                                                                 </td>
@@ -840,7 +840,7 @@ const DashboardPage: React.FC = () => {
                                                                         <div className="leading-none">
                                                                             <span
                                                                                 className="avatar avatar-md online avatar-rounded me-2 !mb-0">
-                                                                                <img src="/build/assets/images/faces/15.jpg"
+                                                                                <img src="/backend/assets/images/faces/15.jpg"
                                                                                     alt="" />
                                                                             </span>
                                                                         </div>
@@ -868,7 +868,7 @@ const DashboardPage: React.FC = () => {
                                                                 </td>
                                                                 <td>
                                                                     <span className="avatar avatar-md">
-                                                                        <img src="/build/assets/images/ecommerce/png/10.png"
+                                                                        <img src="/backend/assets/images/ecommerce/png/10.png"
                                                                             alt="" />
                                                                     </span>
                                                                 </td>
@@ -895,7 +895,7 @@ const DashboardPage: React.FC = () => {
                                                                         <div className="leading-none">
                                                                             <span
                                                                                 className="avatar avatar-md online avatar-rounded me-2 !mb-0">
-                                                                                <img src="/build/assets/images/faces/6.jpg"
+                                                                                <img src="/backend/assets/images/faces/6.jpg"
                                                                                     alt="" />
                                                                             </span>
                                                                         </div>
@@ -923,7 +923,7 @@ const DashboardPage: React.FC = () => {
                                                                 </td>
                                                                 <td>
                                                                     <span className="avatar avatar-md">
-                                                                        <img src="/build/assets/images/ecommerce/png/11.png"
+                                                                        <img src="/backend/assets/images/ecommerce/png/11.png"
                                                                             alt="" />
                                                                     </span>
                                                                 </td>
@@ -941,7 +941,7 @@ const DashboardPage: React.FC = () => {
                                                                         <div className="leading-none">
                                                                             <span
                                                                                 className="avatar avatar-md offline avatar-rounded me-2 !mb-0">
-                                                                                <img src="/build/assets/images/faces/14.jpg"
+                                                                                <img src="/backend/assets/images/faces/14.jpg"
                                                                                     alt="" />
                                                                             </span>
                                                                         </div>
@@ -969,7 +969,7 @@ const DashboardPage: React.FC = () => {
                                                                 </td>
                                                                 <td>
                                                                     <span className="avatar avatar-md">
-                                                                        <img src="/build/assets/images/ecommerce/png/12.png"
+                                                                        <img src="/backend/assets/images/ecommerce/png/12.png"
                                                                             alt="" />
                                                                     </span>
                                                                 </td>
@@ -987,7 +987,7 @@ const DashboardPage: React.FC = () => {
                                                                         <div className="leading-none">
                                                                             <span
                                                                                 className="avatar avatar-md online avatar-rounded me-2 !mb-0">
-                                                                                <img src="/build/assets/images/faces/16.jpg"
+                                                                                <img src="/backend/assets/images/faces/16.jpg"
                                                                                     alt="" />
                                                                             </span>
                                                                         </div>
@@ -1015,7 +1015,7 @@ const DashboardPage: React.FC = () => {
                                                                 </td>
                                                                 <td>
                                                                     <span className="avatar avatar-md">
-                                                                        <img src="/build/assets/images/ecommerce/png/13.png"
+                                                                        <img src="/backend/assets/images/ecommerce/png/13.png"
                                                                             alt="" />
                                                                     </span>
                                                                 </td>
@@ -1033,7 +1033,7 @@ const DashboardPage: React.FC = () => {
                                                                         <div className="leading-none">
                                                                             <span
                                                                                 className="avatar avatar-md online avatar-rounded me-2 !mb-0">
-                                                                                <img src="/build/assets/images/faces/3.jpg"
+                                                                                <img src="/backend/assets/images/faces/3.jpg"
                                                                                     alt="" />
                                                                             </span>
                                                                         </div>
@@ -1061,7 +1061,7 @@ const DashboardPage: React.FC = () => {
                                                                 </td>
                                                                 <td>
                                                                     <span className="avatar avatar-md">
-                                                                        <img src="/build/assets/images/ecommerce/png/14.png"
+                                                                        <img src="/backend/assets/images/ecommerce/png/14.png"
                                                                             alt="" />
                                                                     </span>
                                                                 </td>
@@ -1078,7 +1078,7 @@ const DashboardPage: React.FC = () => {
                                                                         <div className="leading-none">
                                                                             <span
                                                                                 className="avatar avatar-md offline avatar-rounded me-2 !mb-0">
-                                                                                <img src="/build/assets/images/faces/9.jpg"
+                                                                                <img src="/backend/assets/images/faces/9.jpg"
                                                                                     alt="" />
                                                                             </span>
                                                                         </div>
@@ -1106,7 +1106,7 @@ const DashboardPage: React.FC = () => {
                                                                 </td>
                                                                 <td>
                                                                     <span className="avatar avatar-md">
-                                                                        <img src="/build/assets/images/ecommerce/png/15.png"
+                                                                        <img src="/backend/assets/images/ecommerce/png/15.png"
                                                                             alt="" />
                                                                     </span>
                                                                 </td>
@@ -1206,7 +1206,7 @@ const DashboardPage: React.FC = () => {
                                                         className="border-y border-inherit border-solid dark:border-defaultborder/10 ">
                                                         <td className="text-center leading-none">
                                                             <span className="avatar avatar-md !rounded-full">
-                                                                <img src="/build/assets/images/ecommerce/png/36.png"
+                                                                <img src="/backend/assets/images/ecommerce/png/36.png"
                                                                     className="p-2 !rounded-full bg-light" alt="" />
                                                             </span>
                                                         </td>
@@ -1223,7 +1223,7 @@ const DashboardPage: React.FC = () => {
                                                         className="border-y border-inherit border-solid dark:border-defaultborder/10 ">
                                                         <td className="text-center leading-none">
                                                             <span className="avatar avatar-md !rounded-full">
-                                                                <img src="/build/assets/images/ecommerce/png/38.png"
+                                                                <img src="/backend/assets/images/ecommerce/png/38.png"
                                                                     className="p-2 !rounded-full bg-light" alt="" />
                                                             </span>
                                                         </td>
@@ -1240,7 +1240,7 @@ const DashboardPage: React.FC = () => {
                                                         className="border-y border-inherit border-solid dark:border-defaultborder/10 ">
                                                         <td className="text-center leading-none">
                                                             <span className="avatar avatar-md !rounded-full">
-                                                                <img src="/build/assets/images/ecommerce/png/39.png"
+                                                                <img src="/backend/assets/images/ecommerce/png/39.png"
                                                                     className="p-2 !rounded-full bg-light" alt="" />
                                                             </span>
                                                         </td>
@@ -1256,7 +1256,7 @@ const DashboardPage: React.FC = () => {
                                                     <tr>
                                                         <td className="text-center leading-none">
                                                             <span className="avatar avatar-md !rounded-full">
-                                                                <img src="/build/assets/images/ecommerce/png/40.png"
+                                                                <img src="/backend/assets/images/ecommerce/png/40.png"
                                                                     className="p-2 !rounded-full bg-light" alt="" />
                                                             </span>
                                                         </td>
@@ -1308,7 +1308,7 @@ const DashboardPage: React.FC = () => {
                                                 <div className="flex justify-between items-center">
                                                     <div className="flex items-center leading-none">
                                                         <span className="avatar avatar-xs me-2">
-                                                            <img src="/build/assets/images/flags/french_flag.jpg" alt=""
+                                                            <img src="/backend/assets/images/flags/french_flag.jpg" alt=""
                                                                 className="rounded-full h-[1.25rem] w-[1.25rem]" />
                                                         </span>
                                                         <span className="top-country-name w-[4.5rem]">France</span>
@@ -1323,7 +1323,7 @@ const DashboardPage: React.FC = () => {
                                                 <div className="flex justify-between items-center">
                                                     <div className="flex items-center leading-none">
                                                         <span className="avatar avatar-xs me-2 avatar-rounded">
-                                                            <img src="/build/assets/images/flags/spain_flag.jpg" alt=""
+                                                            <img src="/backend/assets/images/flags/spain_flag.jpg" alt=""
                                                                 className="rounded-full h-[1.25rem] w-[1.25rem]" />
                                                         </span>
                                                         <span className="top-country-name w-[4.5rem]">spain</span>
@@ -1338,7 +1338,7 @@ const DashboardPage: React.FC = () => {
                                                 <div className="flex justify-between items-center">
                                                     <div className="flex items-center leading-none">
                                                         <span className="avatar avatar-xs me-2 avatar-rounded">
-                                                            <img src="/build/assets/images/flags/argentina_flag.jpg"
+                                                            <img src="/backend/assets/images/flags/argentina_flag.jpg"
                                                                 alt="" className="rounded-full h-[1.25rem] w-[1.25rem]" />
                                                         </span>
                                                         <span className="top-country-name w-[4.5rem]">Argentina</span>
@@ -1353,7 +1353,7 @@ const DashboardPage: React.FC = () => {
                                                 <div className="flex justify-between items-center">
                                                     <div className="flex items-center leading-none">
                                                         <span className="avatar avatar-xs me-2 avatar-rounded">
-                                                            <img src="/build/assets/images/flags/uae_flag.jpg" alt=""
+                                                            <img src="/backend/assets/images/flags/uae_flag.jpg" alt=""
                                                                 className="rounded-full h-[1.25rem] w-[1.25rem]" />
                                                         </span>
                                                         <span className="top-country-name w-[4.5rem]">Uae</span>
@@ -1368,7 +1368,7 @@ const DashboardPage: React.FC = () => {
                                                 <div className="flex justify-between items-center">
                                                     <div className="flex items-center leading-none">
                                                         <span className="avatar avatar-xs me-2 avatar-rounded">
-                                                            <img src="/build/assets/images/flags/germany_flag.jpg" alt=""
+                                                            <img src="/backend/assets/images/flags/germany_flag.jpg" alt=""
                                                                 className="rounded-full h-[1.25rem] w-[1.25rem]" />
                                                         </span>
                                                         <span className="top-country-name w-[4.5rem]">Germany</span>
@@ -1412,7 +1412,7 @@ const DashboardPage: React.FC = () => {
                                                 <a href="javascript:void(0);">
                                                     <div className="flex items-center justify-between">
                                                         <div className="flex items-start justify-center">
-                                                            <img src="/build/assets/images/faces/4.jpg" alt=""
+                                                            <img src="/backend/assets/images/faces/4.jpg" alt=""
                                                                 className="avatar avatar-md avatar-rounded !mb-0 me-2" />
                                                             <div>
                                                                 <p className="mb-[1px] font-semibold">Emma Wilson</p>
@@ -1433,7 +1433,7 @@ const DashboardPage: React.FC = () => {
                                                 <a href="javascript:void(0);">
                                                     <div className="flex items-center justify-between">
                                                         <div className="flex items-start justify-center">
-                                                            <img src="/build/assets/images/faces/15.jpg" alt=""
+                                                            <img src="/backend/assets/images/faces/15.jpg" alt=""
                                                                 className="avatar avatar-md avatar-rounded !mb-0 me-2" />
                                                             <div>
                                                                 <p className="mb-[1px] font-semibold">Robert Lewis</p>
@@ -1454,7 +1454,7 @@ const DashboardPage: React.FC = () => {
                                                 <a href="javascript:void(0);">
                                                     <div className="flex items-center justify-between">
                                                         <div className="flex items-start justify-center">
-                                                            <img src="/build/assets/images/faces/5.jpg" alt=""
+                                                            <img src="/backend/assets/images/faces/5.jpg" alt=""
                                                                 className="avatar avatar-md avatar-rounded !mb-0 me-2" />
                                                             <div>
                                                                 <p className="mb-[1px] font-semibold">Angelina Hose</p>
@@ -1475,7 +1475,7 @@ const DashboardPage: React.FC = () => {
                                                 <a href="javascript:void(0);">
                                                     <div className="flex items-center justify-between">
                                                         <div className="flex items-start justify-center">
-                                                            <img src="/build/assets/images/faces/2.jpg" alt=""
+                                                            <img src="/backend/assets/images/faces/2.jpg" alt=""
                                                                 className="me-2 avatar avatar-md avatar-rounded !mb-0" />
                                                             <div>
                                                                 <p className="mb-[1px] font-semibold">Samantha Sam</p>
@@ -1552,7 +1552,7 @@ const DashboardPage: React.FC = () => {
                                                     <div className="flex items-center">
                                                         <div className="me-2 leading-none">
                                                             <span className="avatar avatar-sm">
-                                                                <img src="/build/assets/images/ecommerce/png/36.png"
+                                                                <img src="/backend/assets/images/ecommerce/png/36.png"
                                                                     alt="" />
                                                             </span>
                                                         </div>
@@ -1581,7 +1581,7 @@ const DashboardPage: React.FC = () => {
                                                     <div className="flex items-center">
                                                         <div className="me-2 leading-none">
                                                             <span className="avatar avatar-sm">
-                                                                <img src="/build/assets/images/ecommerce/png/37.png"
+                                                                <img src="/backend/assets/images/ecommerce/png/37.png"
                                                                     alt="" />
                                                             </span>
                                                         </div>
@@ -1610,7 +1610,7 @@ const DashboardPage: React.FC = () => {
                                                     <div className="flex items-center">
                                                         <div className="me-2 leading-none">
                                                             <span className="avatar avatar-sm">
-                                                                <img src="/build/assets/images/ecommerce/png/38.png"
+                                                                <img src="/backend/assets/images/ecommerce/png/38.png"
                                                                     alt="" />
                                                             </span>
                                                         </div>
@@ -1639,7 +1639,7 @@ const DashboardPage: React.FC = () => {
                                                     <div className="flex items-center">
                                                         <div className="me-2 leading-none">
                                                             <span className="avatar avatar-sm">
-                                                                <img src="/build/assets/images/ecommerce/png/39.png"
+                                                                <img src="/backend/assets/images/ecommerce/png/39.png"
                                                                     alt="" />
                                                             </span>
                                                         </div>
@@ -1668,7 +1668,7 @@ const DashboardPage: React.FC = () => {
                                                     <div className="flex items-center">
                                                         <div className="me-2 leading-none">
                                                             <span className="avatar avatar-sm">
-                                                                <img src="/build/assets/images/ecommerce/png/40.png"
+                                                                <img src="/backend/assets/images/ecommerce/png/40.png"
                                                                     alt="" />
                                                             </span>
                                                         </div>

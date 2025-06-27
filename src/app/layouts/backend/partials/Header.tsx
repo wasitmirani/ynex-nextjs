@@ -5,27 +5,27 @@ const HeaderMenu: React.FC = () => {
 const languages = [
 								{
 									name: "English",
-									flag: "/build/assets/images/flags/us_flag.jpg"
+									flag: "/backend/assets/images/flags/us_flag.jpg"
 								},
 								{
 									name: "Spanish",
-									flag: "/build/assets/images/flags/spain_flag.jpg"
+									flag: "/backend/assets/images/flags/spain_flag.jpg"
 								},
 								{
 									name: "French",
-									flag: "/build/assets/images/flags/french_flag.jpg"
+									flag: "/backend/assets/images/flags/french_flag.jpg"
 								},
 								{
 									name: "German",
-									flag: "/build/assets/images/flags/germany_flag.jpg"
+									flag: "/backend/assets/images/flags/germany_flag.jpg"
 								},
 								{
 									name: "Italian",
-									flag: "/build/assets/images/flags/italy_flag.jpg"
+									flag: "/backend/assets/images/flags/italy_flag.jpg"
 								},
 								{
 									name: "Russian",
-									flag: "/build/assets/images/flags/russia_flag.jpg"
+									flag: "/backend/assets/images/flags/russia_flag.jpg"
 								}
 							];
 	return (
@@ -39,17 +39,17 @@ const languages = [
                         <div className="header-element">
                             <div className="horizontal-logo">
                                 <a href="index.html" className="header-logo">
-                                    <img src="/build/assets/images/brand-logos/desktop-logo.png" alt="logo"
+                                    <img src="/backend/assets/images/brand-logos/desktop-logo.png" alt="logo"
                                         className="desktop-logo" />
-                                    <img src="/build/assets/images/brand-logos/toggle-logo.png" alt="logo"
+                                    <img src="/backend/assets/images/brand-logos/toggle-logo.png" alt="logo"
                                         className="toggle-logo" />
-                                    <img src="/build/assets/images/brand-logos/desktop-dark.png" alt="logo"
+                                    <img src="/backend/assets/images/brand-logos/desktop-dark.png" alt="logo"
                                         className="desktop-dark" />
-                                    <img src="/build/assets/images/brand-logos/toggle-dark.png" alt="logo"
+                                    <img src="/backend/assets/images/brand-logos/toggle-dark.png" alt="logo"
                                         className="toggle-dark" />
-                                    <img src="/build/assets/images/brand-logos/desktop-white.png" alt="logo"
+                                    <img src="/backend/assets/images/brand-logos/desktop-white.png" alt="logo"
                                         className="desktop-white" />
-                                    <img src="/build/assets/images/brand-logos/toggle-white.png" alt="logo"
+                                    <img src="/backend/assets/images/brand-logos/toggle-white.png" alt="logo"
                                         className="toggle-white" />
                                 </a>
                             </div>
@@ -80,7 +80,7 @@ const languages = [
                             className="header-element py-[1rem] md:px-[0.65rem] px-2  header-country hs-dropdown ti-dropdown  hidden sm:block [--placement:bottom-left]">
                             <button id="dropdown-flag" type="button"
                                 className="hs-dropdown-toggle ti-dropdown-toggle !p-0 flex-shrink-0  !border-0 !rounded-full !shadow-none">
-                                <img src="/build/assets/images/flags/us_flag.jpg" alt="flag-img"
+                                <img src="/backend/assets/images/flags/us_flag.jpg" alt="flag-img"
                                     className="h-[1.25rem] w-[1.25rem] rounded-full" />
                             </button>
 							
@@ -157,7 +157,7 @@ const languages = [
                                         className="ti-dropdown-item border-b !block dark:border-defaultborder/10 border-defaultborder ">
                                         <div className="flex items-start cart-dropdown-item">
 
-                                            <img src="/build/assets/images/ecommerce/jpg/1.jpg" alt="img"
+                                            <img src="/backend/assets/images/ecommerce/jpg/1.jpg" alt="img"
                                                 className="!h-[1.75rem] !w-[1.75rem] leading-[1.75rem] text-[0.65rem] rounded-[50%] br-5 me-3" />
 
                                             <div className="grow">
@@ -185,118 +185,7 @@ const languages = [
                                         </div>
                                     </li>
 
-                                    <li
-                                        className="ti-dropdown-item border-b !block dark:border-defaultborder/10 border-defaultborder">
-                                        <div className="flex items-start cart-dropdown-item">
-                                            <img src="/build/assets/images/ecommerce/jpg/3.jpg" alt="img"
-                                                className="!h-[1.75rem] !w-[1.75rem] leading-[1.75rem] text-[0.65rem]  rounded-[50%] br-5 me-3" />
-                                            <div className="grow">
-                                                <div className="flex items-start justify-between mb-0">
-                                                    <div
-                                                        className="mb-0 text-[0.8125rem] text-[#232323] dark:text-white font-semibold">
-                                                        <a href="cart.html">Stop Watch</a>
-                                                    </div>
-                                                    <div className="inline-flex">
-                                                        <span
-                                                            className="text-black dark:text-white !font-medium mb-1">$179.29</span>
-                                                        <a aria-label="anchor" href="javascript:void(0);"
-                                                            className="header-cart-remove ltr:float-right rtl:float-left dropdown-item-close"><i
-                                                                className="ti ti-trash"></i></a>
-                                                    </div>
-                                                </div>
-                                                <div className="min-w-fit flex items-start justify-between">
-                                                    <ul className="header-product-item">
-                                                        <li>Analog</li>
-                                                        <li><span
-                                                                className="font-[600] py-[0.25rem] px-[0.45rem] rounded-[0.25rem] bg-pinkmain/10 text-pinkmain text-[0.625rem]">Free
-                                                                shipping</span></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li
-                                        className="ti-dropdown-item border-b !block dark:border-defaultborder/10 border-defaultborder">
-                                        <div className="flex items-start cart-dropdown-item">
-                                            <img src="/build/assets/images/ecommerce/jpg/5.jpg" alt="img"
-                                                className="!h-[1.75rem] !w-[1.75rem] leading-[1.75rem] text-[0.65rem]  rounded-[50%] br-5 me-3" />
-                                            <div className="grow">
-                                                <div className="flex items-start justify-between mb-0">
-                                                    <div
-                                                        className="mb-0 text-[0.8125rem] text-[#232323] font-semibold dark:text-white">
-                                                        <a href="cart.html">Photo Frame</a>
-                                                    </div>
-                                                    <div className="inline-flex">
-                                                        <span
-                                                            className="text-black !font-medium mb-1 dark:text-white">$29.00</span>
-                                                        <a aria-label="anchor" href="javascript:void(0);"
-                                                            className="header-cart-remove ltr:float-right rtl:float-left dropdown-item-close"><i
-                                                                className="ti ti-trash"></i></a>
-                                                    </div>
-                                                </div>
-                                                <div className="min-w-fit flex items-start justify-between">
-                                                    <ul className="header-product-item flex">
-                                                        <li>Decorative</li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li
-                                        className="ti-dropdown-item border-b !block dark:border-defaultborder/10 border-defaultborder">
-                                        <div className="flex items-start cart-dropdown-item">
-                                            <img src="/build/assets/images/ecommerce/jpg/4.jpg" alt="img"
-                                                className="!h-[1.75rem] !w-[1.75rem] leading-[1.75rem] text-[0.65rem]  rounded-[50%] br-5 me-3" />
-                                            <div className="grow">
-                                                <div className="flex items-start justify-between mb-0">
-                                                    <div
-                                                        className="mb-0 text-[0.8125rem] text-[#232323] font-semibold dark:text-white">
-                                                        <a href="cart.html">Kikon Camera</a>
-                                                    </div>
-                                                    <div className="inline-flex">
-                                                        <span
-                                                            className="text-black !font-medium mb-1 dark:text-white">$4,999.00</span>
-                                                        <a aria-label="anchor" href="javascript:void(0);"
-                                                            className="header-cart-remove ltr:float-right rtl:float-left dropdown-item-close"><i
-                                                                className="ti ti-trash"></i></a>
-                                                    </div>
-                                                </div>
-                                                <div className="min-w-fit flex items-start justify-between">
-                                                    <ul className="header-product-item flex">
-                                                        <li>Black</li>
-                                                        <li>50MM</li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li className="ti-dropdown-item !block">
-                                        <div className="flex items-start cart-dropdown-item">
-                                            <img src="/build/assets/images/ecommerce/jpg/6.jpg" alt="img"
-                                                className="!h-[1.75rem] !w-[1.75rem] leading-[1.75rem] text-[0.65rem]  rounded-[50%] br-5 me-3" />
-                                            <div className="grow">
-                                                <div className="flex items-start justify-between mb-0">
-                                                    <div
-                                                        className="mb-0 text-[0.8125rem] text-[#232323] font-semibold dark:text-white">
-                                                        <a href="cart.html">Canvas Shoes</a>
-                                                    </div>
-                                                    <div className="inline-flex">
-                                                        <span
-                                                            className="text-black !font-medium mb-1 dark:text-white">$129.00</span>
-                                                        <a aria-label="anchor" href="javascript:void(0);"
-                                                            className="header-cart-remove ltr:float-right rtl:float-left dropdown-item-close"><i
-                                                                className="ti ti-trash"></i></a>
-                                                    </div>
-                                                </div>
-                                                <div className="flex items-start justify-between">
-                                                    <ul className="header-product-item flex">
-                                                        <li>Gray</li>
-                                                        <li>Sports</li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </li>
+                                   
                                 </ul>
                                 <div className="p-3 empty-header-item border-t">
                                     <div className="grid">
@@ -530,7 +419,7 @@ const languages = [
                                             <a href="javascript:void(0);"
                                                 className="p-4 items-center related-app block text-center rounded-sm hover:bg-gray-50 dark:hover:bg-black/20">
                                                 <div>
-                                                    <img src="/build/assets/images/apps/figma.png" alt="figma"
+                                                    <img src="/backend/assets/images/apps/figma.png" alt="figma"
                                                         className="!h-[1.75rem] !w-[1.75rem] text-2xl avatar text-primary flex justify-center items-center mx-auto"/>
                                                     <div
                                                         className="text-[0.75rem] text-defaulttextcolor dark:text-[#8c9097] dark:text-white/50">
@@ -541,7 +430,7 @@ const languages = [
                                         <div className="">
                                             <a href="javascript:void(0);"
                                                 className="p-4 items-center related-app block text-center rounded-sm hover:bg-gray-50 dark:hover:bg-black/20">
-                                                <img src="/build/assets/images/apps/microsoft-powerpoint.png"
+                                                <img src="/backend/assets/images/apps/microsoft-powerpoint.png"
                                                     alt="miscrosoft"
                                                     className="leading-[1.75] text-2xl !h-[1.75rem] !w-[1.75rem] align-middle flex justify-center mx-auto" />
                                                 <div
@@ -552,7 +441,7 @@ const languages = [
                                         <div className="">
                                             <a href="javascript:void(0);"
                                                 className="p-4 items-center related-app block text-center rounded-sm hover:bg-gray-50 dark:hover:bg-black/20">
-                                                <img src="/build/assets/images/apps/microsoft-word.png"
+                                                <img src="/backend/assets/images/apps/microsoft-word.png"
                                                     alt="miscrodoftword" className="leading-none
                                         text-2xl !h-[1.75rem] !w-[1.75rem] align-middle flex justify-center mx-auto" />
                                                 <div
@@ -563,7 +452,7 @@ const languages = [
                                         <div className="">
                                             <a href="javascript:void(0);"
                                                 className="p-4 items-center related-app block text-center rounded-sm hover:bg-gray-50 dark:hover:bg-black/20">
-                                                <img src="/build/assets/images/apps/calender.png" alt="calander"
+                                                <img src="/backend/assets/images/apps/calender.png" alt="calander"
                                                     className="leading-none text-2xl !h-[1.75rem] !w-[1.75rem] align-middle flex justify-center mx-auto" />
                                                 <div
                                                     className="text-[0.75rem] text-defaulttextcolor dark:text-[#8c9097] dark:text-white/50">
@@ -573,7 +462,7 @@ const languages = [
                                         <div className="">
                                             <a href="javascript:void(0);"
                                                 className="p-4 items-center related-app block text-center rounded-sm hover:bg-gray-50 dark:hover:bg-black/20">
-                                                <img src="/build/assets/images/apps/sketch.png" alt="apps"
+                                                <img src="/backend/assets/images/apps/sketch.png" alt="apps"
                                                     className="leading-none text-2xl !h-[1.75rem] !w-[1.75rem] align-middle flex justify-center mx-auto" />
                                                 <div
                                                     className="text-[0.75rem] text-defaulttextcolor dark:text-[#8c9097] dark:text-white/50">
@@ -583,7 +472,7 @@ const languages = [
                                         <div className="">
                                             <a href="javascript:void(0);"
                                                 className="p-4 items-center related-app block text-center rounded-sm hover:bg-gray-50 dark:hover:bg-black/20">
-                                                <img src="/build/assets/images/apps/google-docs.png" alt="docs"
+                                                <img src="/backend/assets/images/apps/google-docs.png" alt="docs"
                                                     className="leading-none text-2xl !h-[1.75rem] !w-[1.75rem] align-middle flex justify-center mx-auto" />
                                                 <div
                                                     className="text-[0.75rem] text-defaulttextcolor dark:text-[#8c9097] dark:text-white/50">
@@ -593,7 +482,7 @@ const languages = [
                                         <div className="">
                                             <a href="javascript:void(0);"
                                                 className="p-4 items-center related-app block text-center rounded-sm hover:bg-gray-50 dark:hover:bg-black/20">
-                                                <img src="/build/assets/images/apps/google.png" alt="google"
+                                                <img src="/backend/assets/images/apps/google.png" alt="google"
                                                     className="leading-none text-2xl !h-[1.75rem] !w-[1.75rem] align-middle flex justify-center mx-auto" />
                                                 <div
                                                     className="text-[0.75rem] text-defaulttextcolor dark:text-[#8c9097] dark:text-white/50">
@@ -603,7 +492,7 @@ const languages = [
                                         <div className="">
                                             <a href="javascript:void(0);"
                                                 className="p-4 items-center related-app block text-center rounded-sm hover:bg-gray-50 dark:hover:bg-black/20">
-                                                <img src="/build/assets/images/apps/translate.png" alt="translate"
+                                                <img src="/backend/assets/images/apps/translate.png" alt="translate"
                                                     className="leading-none text-2xl !h-[1.75rem] !w-[1.75rem] align-middle flex justify-center mx-auto" />
                                                 <div
                                                     className="text-[0.75rem] text-defaulttextcolor dark:text-[#8c9097] dark:text-white/50">
@@ -613,7 +502,7 @@ const languages = [
                                         <div className="">
                                             <a href="javascript:void(0);"
                                                 className="p-4 items-center related-app block text-center rounded-sm hover:bg-gray-50 dark:hover:bg-black/20">
-                                                <img src="/build/assets/images/apps/google-sheets.png" alt="sheets"
+                                                <img src="/backend/assets/images/apps/google-sheets.png" alt="sheets"
                                                     className="leading-none text-2xl !h-[1.75rem] !w-[1.75rem] align-middle flex justify-center mx-auto" />
                                                 <div
                                                     className="text-[0.75rem] text-defaulttextcolor dark:text-[#8c9097] dark:text-white/50">
@@ -652,7 +541,7 @@ const languages = [
 
                             <button id="dropdown-profile" type="button"
                                 className="hs-dropdown-toggle ti-dropdown-toggle !gap-2 !p-0 flex-shrink-0 sm:me-2 me-0 !rounded-full !shadow-none text-xs align-middle !border-0 !shadow-transparent ">
-                                <img className="inline-block rounded-full " src="/build/assets/images/faces/9.jpg" width="32"
+                                <img className="inline-block rounded-full " src="/backend/assets/images/faces/9.jpg" width="32"
                                     height="32" alt="Image Description"/>
                             </button>
                             <div className="md:block hidden dropdown-profile">

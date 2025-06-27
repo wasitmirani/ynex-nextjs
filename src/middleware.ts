@@ -8,8 +8,10 @@ export function middleware(request: NextRequest) {
     const authHeader = request.headers.get('Authorization')
     const headerToken = authHeader?.replace('Bearer ', '')
     
-    const token = cookieToken || headerToken
-    const isAuthPage = request.nextUrl.pathname.startsWith('/auth')
+    // const token = cookieToken || headerToken
+    const token = true;
+    // const isAuthPage = request.nextUrl.pathname.startsWith('/auth')
+    const isAuthPage = true;
     const isAppPage = request.nextUrl.pathname.startsWith('/app')
 
     // Redirect root app route to login if not authenticated
@@ -24,7 +26,9 @@ export function middleware(request: NextRequest) {
 
     // If user is authenticated and trying to access auth pages
     // if (token && isAuthPage) {
-        // return NextResponse.redirect(new URL('/app/dashboard', request.url))
+    //     console.log("request.url", request.url)
+    //     NextResponse.next()
+    //     // return NextResponse.redirect(new URL('/app/dashboard', request.url))
     // }
 
     return NextResponse.next()
