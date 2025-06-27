@@ -30,9 +30,9 @@ export default function MasterLayout({ children }: { children: ReactNode }) {
             { src: '/backend/assets/libs/simplebar/simplebar.min.js', id: 'simplebar-js' },
             { src: '/backend/assets/libs/apexcharts/apexcharts.min.js', id: 'apexcharts-js' },
             { src: '/backend/assets/sticky.js', id: 'sticky-js' },
-            { src: '/backend/assets/ecommerce-dashboard-c398248f.js', id: 'ecommerce-dashboard-js' },
-            { src: '/backend/assets/app-23e8aa1f.js', id: 'app-js' },
-            { src: '/backend/assets/custom-switcher-c2a0a9d1.js', id: 'custom-switcher-js' },
+            // { src: '/backend/assets/ecommerce-dashboard-c398248f.js', id: 'ecommerce-dashboard-js' },
+            // { src: '/backend/assets/app-23e8aa1f.js', id: 'app-js' },
+            // { src: '/backend/assets/custom-switcher-c2a0a9d1.js', id: 'custom-switcher-js' },
 
         ];
         const moduleScripts = [
