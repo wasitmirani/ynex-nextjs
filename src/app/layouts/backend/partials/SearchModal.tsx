@@ -9,7 +9,7 @@ return <>
                                     <div className="ti-modal-body">
 
                                         <div className="input-group border-[2px] border-primary rounded-[0.25rem] w-full flex">
-                                            <a aria-label="anchor" href="javascript:void(0);"
+                                            <a aria-label="anchor" href="#" onClick={e => e.preventDefault()}
                                                 className="input-group-text flex items-center bg-light border-e-[#dee2e6] !py-[0.375rem] !px-[0.75rem] !rounded-none !text-[0.875rem]"
                                                 id="Search-Grid"><i className="fe fe-search header-link-icon text-[0.875rem]"></i></a>
 
@@ -17,27 +17,27 @@ return <>
                                                 className="form-control border-0 px-2 !text-[0.8rem] w-full focus:ring-transparent"
                                                 placeholder="Search" aria-label="Username" />
 
-                                            <a aria-label="anchor" href="javascript:void(0);"
+                                            <a aria-label="anchor" href="#" onClick={e => e.preventDefault()}
                                                 className="flex items-center input-group-text bg-light !py-[0.375rem] !px-[0.75rem]"
                                                 id="voice-search"><i className="fe fe-mic header-link-icon"></i></a>
                                             <div className="hs-dropdown ti-dropdown">
-                                                <a aria-label="anchor" href="javascript:void(0);"
+                                                <a aria-label="anchor" href="#" onClick={e => e.preventDefault()}
                                                     className="flex items-center hs-dropdown-toggle ti-dropdown-toggle btn btn-light btn-icon !bg-light !py-[0.375rem] !rounded-none !px-[0.75rem] text-[0.95rem] h-[2.413rem] w-[2.313rem]">
                                                     <i className="fe fe-more-vertical"></i>
                                                 </a>
 
                                                 <ul className="absolute hs-dropdown-menu ti-dropdown-menu !-mt-2 !p-0 hidden">
                                                     <li><a className="ti-dropdown-item flex text-defaulttextcolor dark:text-defaulttextcolor/70 !py-[0.5rem] !px-[0.9375rem] !text-[0.8125rem] font-medium"
-                                                        href="javascript:void(0);">Action</a></li>
+                                                        href="#" onClick={e => e.preventDefault()}>Action</a></li>
                                                     <li><a className="ti-dropdown-item flex text-defaulttextcolor dark:text-defaulttextcolor/70 !py-[0.5rem] !px-[0.9375rem] !text-[0.8125rem] font-medium"
-                                                        href="javascript:void(0);">Another action</a></li>
+                                                        href="#" onClick={e => e.preventDefault()}>Another action</a></li>
                                                     <li><a className="ti-dropdown-item flex text-defaulttextcolor dark:text-defaulttextcolor/70 !py-[0.5rem] !px-[0.9375rem] !text-[0.8125rem] font-medium"
-                                                        href="javascript:void(0);">Something else here</a></li>
+                                                        href="#" onClick={e => e.preventDefault()}>Something else here</a></li>
                                                     <li>
                                                         <hr className="dropdown-divider" />
                                                     </li>
                                                     <li><a className="ti-dropdown-item flex text-defaulttextcolor dark:text-defaulttextcolor/70 !py-[0.5rem] !px-[0.9375rem] !text-[0.8125rem] font-medium"
-                                                        href="javascript:void(0);">Separated link</a></li>
+                                                        href="#" onClick={e => e.preventDefault()}>Separated link</a></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -77,7 +77,7 @@ return <>
                                             <div id="dismiss-notifications-alert" role="alert"
                                                 className="!p-2 border dark:border-defaultborder/10 rounded-[0.3125rem] flex items-center text-defaulttextcolor dark:text-defaulttextcolor/70 !mb-2 !text-[0.8125rem] alert">
                                                 <a href="notifications.html"><span>Notifications</span></a>
-                                                <a aria-label="anchor" className="ms-auto leading-none" href="javascript:void(0);"
+                                                <a aria-label="anchor" className="ms-auto leading-none" href="#" onClick={e => e.preventDefault()}
                                                     data-hs-remove-element="#dismiss-notifications-alert"><i
                                                         className="fe fe-x !text-[0.8125rem] text-[#8c9097] dark:text-white/50"></i></a>
                                             </div>
@@ -85,7 +85,7 @@ return <>
                                             <div id="dismiss-alerts-alert" role="alert"
                                                 className="!p-2 border dark:border-defaultborder/10 rounded-[0.3125rem] flex items-center text-defaulttextcolor dark:text-defaulttextcolor/70 !mb-2 !text-[0.8125rem] alert">
                                                 <a href="alerts.html"><span>Alerts</span></a>
-                                                <a aria-label="anchor" className="ms-auto leading-none" href="javascript:void(0);"
+                                                <a aria-label="anchor" className="ms-auto leading-none" href="#" onClick={e => e.preventDefault()}
                                                     data-hs-remove-element="#dismiss-alerts-alert"><i
                                                         className="fe fe-x !text-[0.8125rem] text-[#8c9097] dark:text-white/50"></i></a>
                                             </div>
@@ -93,7 +93,7 @@ return <>
                                             <div id="dismiss-mail-alert" role="alert"
                                                 className="!p-2 border dark:border-defaultborder/10 rounded-[0.3125rem] flex items-center text-defaulttextcolor dark:text-defaulttextcolor/70 !mb-0 !text-[0.8125rem] alert">
                                                 <a href="mail.html"><span>Mail</span></a>
-                                                <a aria-label="anchor" className="ms-auto lh-1" href="javascript:void(0);"
+                                                <a aria-label="anchor" className="ms-auto lh-1" href="#" onClick={e => e.preventDefault()}
                                                     data-hs-remove-element="#dismiss-mail-alert"><i
                                                         className="fe fe-x !text-[0.8125rem] text-[#8c9097] dark:text-white/50"></i></a>
                                             </div>

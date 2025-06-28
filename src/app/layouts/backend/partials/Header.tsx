@@ -60,7 +60,7 @@ const languages = [
                             {/* <!-- Start::header-link --> */}
                             <a aria-label="Hide Sidebar"
                                 className="sidemenu-toggle animated-arrow  hor-toggle horizontal-navtoggle inline-flex items-center"
-                                href="javascript:void(0);"><span></span></a>
+                                href="#" onClick={e => e.preventDefault()}><span></span></a>
                             {/* <!-- End::header-link --> */}
                         </div>
                         {/* <!-- End::header-element --> */}
@@ -135,7 +135,7 @@ const languages = [
                                 <span className="flex absolute h-5 w-5 -top-[0.25rem] end-0 -me-[0.6rem]">
                                     <span
                                         className="relative inline-flex rounded-full h-[14.7px] w-[14px] text-[0.625rem] bg-primary text-white justify-center items-center"
-                                        id="cart-icon-badge">5</span>
+                                        id="cart-icon-badge">0</span>
                                 </span>
                             </button>
                             <div className="main-header-dropdown bg-white !-mt-3 !p-0 hs-dropdown-menu ti-dropdown-menu w-[22rem] border-0 border-defaultborder hidden"
@@ -147,7 +147,7 @@ const languages = [
                                         Cart Items</p>
                                     <a href="javascript:void(0)"
                                         className="font-[600] py-[0.25/2rem] px-[0.45rem] rounded-[0.25rem] bg-success/10 text-success text-[0.75em] "
-                                        id="cart-data">5 Items</a>
+                                        id="cart-data">0 Items</a>
                                 </div>
                                 <div>
                                     <hr className="dropdown-divider dark:border-white/10"/>
@@ -170,7 +170,7 @@ const languages = [
                                                     <div className="inline-flex">
                                                         <span
                                                             className="text-black mb-1 dark:text-white !font-medium">$1,299.00</span>
-                                                        <a aria-label="anchor" href="javascript:void(0);"
+                                                        <a aria-label="anchor" href="#" onClick={e => e.preventDefault()}
                                                             className="header-cart-remove ltr:float-right rtl:float-left dropdown-item-close"><i
                                                                 className="ti ti-trash"></i></a>
                                                     </div>
@@ -261,114 +261,14 @@ const languages = [
                                                         Has Shipped To Your Delivery Address</span>
                                                 </div>
                                                 <div>
-                                                    <a aria-label="anchor" href="javascript:void(0);"
+                                                    <a aria-label="anchor" href="#" onClick={e => e.preventDefault()}
                                                         className="min-w-fit text-[#8c9097] dark:text-white/50 me-1 dropdown-item-close1"><i
                                                             className="ti ti-x text-[1rem]"></i></a>
                                                 </div>
                                             </div>
                                         </div>
                                     </li>
-                                    <li className="ti-dropdown-item dropdown-item !block">
-                                        <div className="flex items-start">
-                                            <div className="pe-2">
-                                                <span
-                                                    className="inline-flex text-secondary justify-center items-center !w-[2.5rem] !h-[2.5rem] !leading-[2.5rem] !text-[0.8rem]  bg-secondary/10 rounded-[50%]"><i
-                                                        className="ti ti-discount-2 text-[1.125rem]"></i></span>
-                                            </div>
-                                            <div className="grow flex items-center justify-between">
-                                                <div>
-                                                    <p
-                                                        className="mb-0 text-defaulttextcolor dark:text-white text-[0.8125rem]  font-semibold">
-                                                        <a href="notifications.html">Discount Available</a></p>
-                                                    <span
-                                                        className="text-[#8c9097] dark:text-white/50 font-normal text-[0.75rem] header-notification-text">Discount
-                                                        Available On Selected Products</span>
-                                                </div>
-                                                <div>
-                                                    <a aria-label="anchor" href="javascript:void(0);"
-                                                        className="min-w-fit  text-[#8c9097] dark:text-white/50 me-1 dropdown-item-close1"><i
-                                                            className="ti ti-x text-[1rem]"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li className="ti-dropdown-item dropdown-item !block">
-                                        <div className="flex items-start">
-                                            <div className="pe-2">
-                                                <span
-                                                    className="inline-flex text-pinkmain justify-center items-center !w-[2.5rem] !h-[2.5rem] !leading-[2.5rem] !text-[0.8rem]  bg-pinkmain/10 rounded-[50%]"><i
-                                                        className="ti ti-user-check text-[1.125rem]"></i></span>
-                                            </div>
-                                            <div className="grow flex items-center justify-between">
-                                                <div>
-                                                    <p
-                                                        className="mb-0 text-defaulttextcolor dark:text-white text-[0.8125rem]  font-semibold">
-                                                        <a href="notifications.html">Account Has Been Verified</a></p>
-                                                    <span
-                                                        className="text-[#8c9097] dark:text-white/50 font-normal text-[0.75rem] header-notification-text">Your
-                                                        Account Has
-                                                        Been Verified Sucessfully</span>
-                                                </div>
-                                                <div>
-                                                    <a aria-label="anchor" href="javascript:void(0);"
-                                                        className="min-w-fit text-[#8c9097] dark:text-white/50 me-1 dropdown-item-close1"><i
-                                                            className="ti ti-x text-[1rem]"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li className="ti-dropdown-item dropdown-item !block">
-                                        <div className="flex items-start">
-                                            <div className="pe-2">
-                                                <span
-                                                    className="inline-flex text-warning justify-center items-center !w-[2.5rem] !h-[2.5rem] !leading-[2.5rem] !text-[0.8rem]  bg-warning/10 rounded-[50%]"><i
-                                                        className="ti ti-circle-check text-[1.125rem]"></i></span>
-                                            </div>
-                                            <div className="grow flex items-center justify-between">
-                                                <div>
-                                                    <p
-                                                        className="mb-0 text-defaulttextcolor dark:text-white text-[0.8125rem]  font-semibold">
-                                                        <a href="notifications.html">Order Placed <span
-                                                                className="text-warning">ID: #1116773</span></a></p>
-                                                    <span
-                                                        className="text-[#8c9097] dark:text-white/50 font-normal text-[0.75rem] header-notification-text">Order
-                                                        Placed
-                                                        Successfully</span>
-                                                </div>
-                                                <div>
-                                                    <a aria-label="anchor" href="javascript:void(0);"
-                                                        className="min-w-fit text-[#8c9097] dark:text-white/50 me-1 dropdown-item-close1"><i
-                                                            className="ti ti-x text-[1rem]"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li className="ti-dropdown-item dropdown-item !block">
-                                        <div className="flex items-start">
-                                            <div className="pe-2">
-                                                <span
-                                                    className="inline-flex text-success justify-center items-center !w-[2.5rem] !h-[2.5rem] !leading-[2.5rem] !text-[0.8rem]  bg-success/10 rounded-[50%]"><i
-                                                        className="ti ti-clock text-[1.125rem]"></i></span>
-                                            </div>
-                                            <div className="grow flex items-center justify-between">
-                                                <div>
-                                                    <p
-                                                        className="mb-0 text-defaulttextcolor dark:text-white  text-[0.8125rem]  font-semibold">
-                                                        <a href="notifications.html">Order Delayed <span
-                                                                className="text-success">ID: 7731116</span></a></p>
-                                                    <span
-                                                        className="text-[#8c9097] dark:text-white/50 font-normal text-[0.75rem] header-notification-text">Order
-                                                        Delayed
-                                                        Unfortunately</span>
-                                                </div>
-                                                <div>
-                                                    <a aria-label="anchor" href="javascript:void(0);"
-                                                        className="min-w-fit text-[#8c9097] dark:text-white/50 me-1 dropdown-item-close1"><i
-                                                            className="ti ti-x text-[1rem]"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </li>
+                                    
                                 </ul>
 
                                 <div className="p-4 empty-header-item1 border-t mt-2">
@@ -416,7 +316,7 @@ const languages = [
                                     id="header-shortcut-scroll">
                                     <div className="grid grid-cols-3 gap-2">
                                         <div className="">
-                                            <a href="javascript:void(0);"
+                                            <a href="#" onClick={e => e.preventDefault()}
                                                 className="p-4 items-center related-app block text-center rounded-sm hover:bg-gray-50 dark:hover:bg-black/20">
                                                 <div>
                                                     <img src="/backend/assets/images/apps/figma.png" alt="figma"
@@ -428,7 +328,7 @@ const languages = [
                                             </a>
                                         </div>
                                         <div className="">
-                                            <a href="javascript:void(0);"
+                                            <a href="#" onClick={e => e.preventDefault()}
                                                 className="p-4 items-center related-app block text-center rounded-sm hover:bg-gray-50 dark:hover:bg-black/20">
                                                 <img src="/backend/assets/images/apps/microsoft-powerpoint.png"
                                                     alt="miscrosoft"
@@ -439,7 +339,7 @@ const languages = [
                                             </a>
                                         </div>
                                         <div className="">
-                                            <a href="javascript:void(0);"
+                                            <a href="#" onClick={e => e.preventDefault()}
                                                 className="p-4 items-center related-app block text-center rounded-sm hover:bg-gray-50 dark:hover:bg-black/20">
                                                 <img src="/backend/assets/images/apps/microsoft-word.png"
                                                     alt="miscrodoftword" className="leading-none
@@ -450,7 +350,7 @@ const languages = [
                                             </a>
                                         </div>
                                         <div className="">
-                                            <a href="javascript:void(0);"
+                                            <a href="#" onClick={e => e.preventDefault()}
                                                 className="p-4 items-center related-app block text-center rounded-sm hover:bg-gray-50 dark:hover:bg-black/20">
                                                 <img src="/backend/assets/images/apps/calender.png" alt="calander"
                                                     className="leading-none text-2xl !h-[1.75rem] !w-[1.75rem] align-middle flex justify-center mx-auto" />
@@ -460,7 +360,7 @@ const languages = [
                                             </a>
                                         </div>
                                         <div className="">
-                                            <a href="javascript:void(0);"
+                                            <a href="#" onClick={e => e.preventDefault()}
                                                 className="p-4 items-center related-app block text-center rounded-sm hover:bg-gray-50 dark:hover:bg-black/20">
                                                 <img src="/backend/assets/images/apps/sketch.png" alt="apps"
                                                     className="leading-none text-2xl !h-[1.75rem] !w-[1.75rem] align-middle flex justify-center mx-auto" />
@@ -470,7 +370,7 @@ const languages = [
                                             </a>
                                         </div>
                                         <div className="">
-                                            <a href="javascript:void(0);"
+                                            <a href="#" onClick={e => e.preventDefault()}
                                                 className="p-4 items-center related-app block text-center rounded-sm hover:bg-gray-50 dark:hover:bg-black/20">
                                                 <img src="/backend/assets/images/apps/google-docs.png" alt="docs"
                                                     className="leading-none text-2xl !h-[1.75rem] !w-[1.75rem] align-middle flex justify-center mx-auto" />
@@ -480,7 +380,7 @@ const languages = [
                                             </a>
                                         </div>
                                         <div className="">
-                                            <a href="javascript:void(0);"
+                                            <a href="#" onClick={e => e.preventDefault()}
                                                 className="p-4 items-center related-app block text-center rounded-sm hover:bg-gray-50 dark:hover:bg-black/20">
                                                 <img src="/backend/assets/images/apps/google.png" alt="google"
                                                     className="leading-none text-2xl !h-[1.75rem] !w-[1.75rem] align-middle flex justify-center mx-auto" />
@@ -490,7 +390,7 @@ const languages = [
                                             </a>
                                         </div>
                                         <div className="">
-                                            <a href="javascript:void(0);"
+                                            <a href="#" onClick={e => e.preventDefault()}
                                                 className="p-4 items-center related-app block text-center rounded-sm hover:bg-gray-50 dark:hover:bg-black/20">
                                                 <img src="/backend/assets/images/apps/translate.png" alt="translate"
                                                     className="leading-none text-2xl !h-[1.75rem] !w-[1.75rem] align-middle flex justify-center mx-auto" />
@@ -500,7 +400,7 @@ const languages = [
                                             </a>
                                         </div>
                                         <div className="">
-                                            <a href="javascript:void(0);"
+                                            <a href="#" onClick={e => e.preventDefault()}
                                                 className="p-4 items-center related-app block text-center rounded-sm hover:bg-gray-50 dark:hover:bg-black/20">
                                                 <img src="/backend/assets/images/apps/google-sheets.png" alt="sheets"
                                                     className="leading-none text-2xl !h-[1.75rem] !w-[1.75rem] align-middle flex justify-center mx-auto" />
@@ -513,7 +413,7 @@ const languages = [
                                 </div>
                                 <div className="p-4 first:pt-0 border-t">
                                     <a className="w-full ti-btn btn-wave ti-btn-primary-full p-2 !m-0"
-                                        href="javascript:void(0);">
+                                        href="#" onClick={e => e.preventDefault()}>
                                         View All
                                     </a>
                                 </div>
@@ -576,7 +476,7 @@ const languages = [
                                                 className="ti ti-adjustments-horizontal text-[1.125rem] me-2 opacity-[0.7]"></i>Settings</a>
                                     </li>
                                     <li><a className="w-full ti-dropdown-item !text-[0.8125rem] !gap-x-0 !p-[0.65rem] !inline-flex "
-                                            href="javascript:void(0);"><i
+                                            href="#" onClick={e => e.preventDefault()}><i
                                                 className="ti ti-wallet text-[1.125rem] me-2 opacity-[0.7]"></i>Bal:
                                             $7,12,950</a></li>
                                     <li><a className="w-full ti-dropdown-item !text-[0.8125rem] !p-[0.65rem] !gap-x-0 !inline-flex"

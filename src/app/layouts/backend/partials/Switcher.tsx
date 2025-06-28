@@ -4,7 +4,6 @@ import React  from 'react';
 const LayoutSwitcher: React.FC = () => {
 
     return (
-
    <div id="hs-overlay-switcher" className="hs-overlay hidden ti-offcanvas ti-offcanvas-right" tabIndex={-1}>
         <div className="ti-offcanvas-header z-10 relative">
             <h5 className="ti-offcanvas-title">
@@ -454,9 +453,7 @@ const LayoutSwitcher: React.FC = () => {
             </div>
         </div>
         <div className="ti-offcanvas-footer sm:flex justify-between">
-         
-           
-            <a href="javascript:void(0);" id="reset-all" className="w-full ti-btn btn-wave ti-btn-danger-full m-1">Reset</a>
+            <a href="#" onClick={e => e.preventDefault()} id="reset-all" className="w-full ti-btn btn-wave ti-btn-danger-full m-1">Reset</a>
         </div>
     </div>
 
